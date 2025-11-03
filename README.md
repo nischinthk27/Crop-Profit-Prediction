@@ -1,7 +1,7 @@
-🌾 Agricultural Profit Predictor
+## 🌾 Agricultural Profit Predictor
 A machine learning-powered web application that helps farmers predict crop yields, prices, and profitability based on historical data and agricultural parameters.A pure Python Machine Learning module that predicts crop yield, price, and calculates expected profit for farmers.
 
-📊 Features
+#📊 Features
 Yield Prediction: ML model trained on enriched agricultural data (53% R² accuracy)- Crop Yield Prediction: Random Forest model predicts yield per acre based on historical data
 
 Price Forecasting: Predict crop prices based on historical trends (97% R² accuracy)- Price Forecasting: Predicts crop prices with year-based trends (6% annual increase)
