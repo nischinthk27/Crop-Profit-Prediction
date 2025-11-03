@@ -1,7 +1,7 @@
-## 🌾 Agricultural Profit Predictor
+### 🌾 Agricultural Profit Predictor
 A machine learning-powered web application that helps farmers predict crop yields, prices, and profitability based on historical data and agricultural parameters.A pure Python Machine Learning module that predicts crop yield, price, and calculates expected profit for farmers.
 
-#📊 Features
+## 📊 Features
 Yield Prediction: ML model trained on enriched agricultural data (53% R² accuracy)- Crop Yield Prediction: Random Forest model predicts yield per acre based on historical data
 
 Price Forecasting: Predict crop prices based on historical trends (97% R² accuracy)- Price Forecasting: Predicts crop prices with year-based trends (6% annual increase)
@@ -13,7 +13,7 @@ User-Friendly Interface: Modern, responsive web design with animations ```
 Farmer-Centric Inputs: Simple inputs based on previous year's data Profit = (Yield × Price × Area) - (Cost × Area)
 
 
-Technologies Used- Farmer-Friendly Units: Uses acres and quintals (standard Indian units)
+## Technologies Used- Farmer-Friendly Units: Uses acres and quintals (standard Indian units)
 10+ Crops Supported: Paddy, Wheat, Maize, Cotton, Sugarcane, and more
 
 Backend: Flask (Python web framework)- Year-Based Predictions: Accounts for inflation and market trends
@@ -28,7 +28,7 @@ Frontend: HTML5, CSS3, JavaScript- Yield Model Accuracy: 78.4% R² Score
 
 Price Model Accuracy: 94.5% R² Score
 
-Installation- Algorithm: Random Forest Regressor
+## Installation- Algorithm: Random Forest Regressor
 Clone the repository:## 🚀 Quick Start
 git clone https://github.com/YOUR_USERNAME/crop-profit-prediction.git### Installation
 
@@ -53,7 +53,7 @@ Run the module
 Run the Flask application: ```bash
 
 python app.py   ```
-📁 Project Structure
+## 📁 Project Structure
 Open your browser and navigate to:
 
 http://127.0.0.1:5000Saciam/
