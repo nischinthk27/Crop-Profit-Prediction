@@ -1,35 +1,50 @@
-### 🌾 Agricultural Profit Predictor
+# 🌾 Agricultural Profit Predictor
+
+
 A machine learning-powered web application that helps farmers predict crop yields, prices, and profitability based on historical data and agricultural parameters.A pure Python Machine Learning module that predicts crop yield, price, and calculates expected profit for farmers.
 
+
+
 ## 📊 Features
-Yield Prediction: ML model trained on enriched agricultural data (53% R² accuracy)- Crop Yield Prediction: Random Forest model predicts yield per acre based on historical data
-
-Price Forecasting: Predict crop prices based on historical trends (97% R² accuracy)- Price Forecasting: Predicts crop prices with year-based trends (6% annual increase)
-
-Profit Analysis: Calculate expected revenue, costs, ROI, and profit per acre- Profit Calculator: Calculates net profit using the formula:
-
-User-Friendly Interface: Modern, responsive web design with animations ```
-
-Farmer-Centric Inputs: Simple inputs based on previous year's data Profit = (Yield × Price × Area) - (Cost × Area)
 
 
-## Technologies Used- Farmer-Friendly Units: Uses acres and quintals (standard Indian units)
-10+ Crops Supported: Paddy, Wheat, Maize, Cotton, Sugarcane, and more
 
-Backend: Flask (Python web framework)- Year-Based Predictions: Accounts for inflation and market trends
+- **Yield Prediction**: ML model trained on enriched agricultural data (53% R² accuracy)- **Crop Yield Prediction**: Random Forest model predicts yield per acre based on historical data
 
-Machine Learning: scikit-learn (RandomForestRegressor)
+- **Price Forecasting**: Predict crop prices based on historical trends (97% R² accuracy)- **Price Forecasting**: Predicts crop prices with year-based trends (6% annual increase)
 
-Data Processing: pandas, numpy## 📈 Model Performance
+- **Profit Analysis**: Calculate expected revenue, costs, ROI, and profit per acre- **Profit Calculator**: Calculates net profit using the formula:
 
-Model Persistence: joblib
+- **User-Friendly Interface**: Modern, responsive web design with animations  ```
 
-Frontend: HTML5, CSS3, JavaScript- Yield Model Accuracy: 78.4% R² Score
+- **Farmer-Centric Inputs**: Simple inputs based on previous year's data  Profit = (Yield × Price × Area) - (Cost × Area)
 
-Price Model Accuracy: 94.5% R² Score
+  ```
 
-## Installation- Algorithm: Random Forest Regressor
-Clone the repository:## 🚀 Quick Start
+## Technologies Used- **Farmer-Friendly Units**: Uses acres and quintals (standard Indian units)
+
+- **10+ Crops Supported**: Paddy, Wheat, Maize, Cotton, Sugarcane, and more
+
+- **Backend**: Flask (Python web framework)- **Year-Based Predictions**: Accounts for inflation and market trends
+
+- **Machine Learning**: scikit-learn (RandomForestRegressor)
+
+- **Data Processing**: pandas, numpy## 📈 Model Performance
+
+- **Model Persistence**: joblib
+
+- **Frontend**: HTML5, CSS3, JavaScript- **Yield Model Accuracy**: 78.4% R² Score
+
+- **Price Model Accuracy**: 94.5% R² Score
+
+## Installation- **Algorithm**: Random Forest Regressor
+
+
+
+1. Clone the repository:## 🚀 Quick Start
+
+```bash
+
 git clone https://github.com/YOUR_USERNAME/crop-profit-prediction.git### Installation
 
 cd crop-profit-prediction
@@ -43,18 +58,34 @@ cd crop-profit-prediction
 ```bash   cd Saciam
 
 pip install -r requirements.txt   ```
-Install dependencies
 
-Train the models (first time only): ```bash
+```
+
+2. **Install dependencies**
+
+3. Train the models (first time only):   ```bash
+
+```bash   pip install -r requirements.txt
 
 python train.py   ```
-Run the module
 
-Run the Flask application: ```bash
+```
+
+3. **Run the module**
+
+4. Run the Flask application:   ```bash
+
+```bash   python Prediction/profit_app.py
 
 python app.py   ```
+
+```
+
 ## 📁 Project Structure
-Open your browser and navigate to:
+
+5. Open your browser and navigate to:
+
+``````
 
 http://127.0.0.1:5000Saciam/
 
@@ -218,3 +249,4 @@ Created for helping farmers make data-driven decisions about crop profitability.
 ---
 
 **Made with ❤️ for Indian Farmers** 🌾
+
